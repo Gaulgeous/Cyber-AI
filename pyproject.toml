@@ -7,6 +7,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+numpy = "^1.26.3"
+tpot = "^0.12.1"
+dash = "^2.14.2"
+seaborn = "^0.13.2"
+polars = "^0.20.6"
 
 
 [build-system]
