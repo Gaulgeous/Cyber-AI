@@ -364,19 +364,19 @@ class GeneticAlgorithm:
 
 if __name__=='__main__':
 
-    data_path = r"/home/david/Documents/Cyber-AI/data/Student_Performance.csv"
+    data_path = r"/home/david/Documents/Cyber-AI/data/dataset_phishing_reduced.csv"
     df = pd.read_csv(data_path)
 
-    mapping = {'Yes': 1, 'No': 0}
-    column = df['Extracurricular Activities'].map(mapping)
-    df['Extracurricular Activities'] = column
+    # mapping = {'phishing': 1, 'legitimate': 0}
+    # column = df['status'].map(mapping)
+    # df['status'] = column
 
-    labels = df["Performance Index"]
-    data = df.drop("Performance Index", axis=1)
+    labels = df["status"]
+    data = df.drop("status", axis=1)
 
     X_train, X_test, y_train, y_test = train_test_split(data, labels, test_size=0.25, random_state=42)
 
-    genetic_algorithm = GeneticAlgorithm("decision_tree", cols=X_train.shape[1], mode="regression", parents=4, population=20, generations=20, cv=2)
+    genetic_algorithm = GeneticAlgorithm("rf", cols=X_train.shape[1], mode="classification", parents=3, population=20, generations=20, cv=2)
     genetic_algorithm.fit(X_train, y_train)
     print("predicting")
     genetic_algorithm.predict(X_test, y_test)
