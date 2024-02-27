@@ -1,39 +1,39 @@
 radical,variants,pinyin,learnt
-一,,yi1,False
-丨,,gun3,False
-丿,"乀 (fu2), 乁(yi2)",pie3,False
-乙,"乚 (yin3), 乛",yi4,False
-亅,,jue2,False
-丶,,zhu3,False
-二,,er4,False
-亠,,tou2,False
-人,亻,ren2,False
-儿,,er2,False
-入,,ru4,False
-八,丷,ba1,False
-冂,,jiong3,False
-冖,,mi4,False
-冫,,bing1,False
-几,,ji1,False
-凵,,qu3,False
-刀,刂,dao1,False
-力,,li4,False
-勹,,bao1,False
-匕,,bi3,False
-匚,,fang1,False
-匸,,xi3,False
-十,,shi2,False
-卜,,bu3,False
-卩,,jie2,False
-厂,,han4,False
-厶,,si1,False
-又,,you4,False
-囗,,wei2,False
-土,,tu3,False
-士,,shi4,False
-夂,,zhi3 (top),False
-夊,,sui1 (bot­tom),False
-夕,,xi1,False
+一,,yi1,True
+丨,,gun3,True
+丿,"乀 (fu2), 乁(yi2)",pie3,True
+乙,"乚 (yin3), 乛",yi4,True
+亅,,jue2,True
+丶,,zhu3,True
+二,,er4,True
+亠,,tou2,True
+人,亻,ren2,True
+儿,,er2,True
+入,,ru4,True
+八,丷,ba1,True
+冂,,jiong3,True
+冖,,mi4,True
+冫,,bing1,True
+几,,ji1,True
+凵,,qu3,True
+刀,刂,dao1,True
+力,,li4,True
+勹,,bao1,True
+匕,,bi3,True
+匚,,fang1,True
+匸,,xi3,True
+十,,shi2,True
+卜,,bu3,True
+卩,,jie2,True
+厂,,han4,True
+厶,,si1,True
+又,,you4,True
+囗,,wei2,True
+土,,tu3,True
+士,,shi4,True
+夂,,zhi3 (top),True
+夊,,sui1 (bot­tom),True
+夕,,xi1,True
 大,,da4,False
 女,,nü3,False
 子,,zi3,False
